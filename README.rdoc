@@ -22,3 +22,7 @@ RDoc for gem API
 === Install
 
 gem install rmathemata
+
+=== Dependencies
+
+<b>mathn</b>
