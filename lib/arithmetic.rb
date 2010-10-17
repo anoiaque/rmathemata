@@ -1,5 +1,4 @@
 #!/usr/local/bin/ruby -Kuw
-
 module Kernel
 
    def ∑(values)
