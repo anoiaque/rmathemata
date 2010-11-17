@@ -12,12 +12,11 @@ Embedded week to week with new functions.
 - euler_totient 
 - is_strong_achilles_number? 
 - numbers_of_strong_achilles_numbers_below integer 
+- power_of_2?
 
 * Math. Symbol for Sum, Product , Root (extend module Kernel) using ruby Unicode √, ∑ ....
 
 === TO DO
-
-RDoc for gem API
 
 === Install
 
