@@ -67,6 +67,10 @@ module PowerfulInteger
   def numbers_of_strong_achilles_numbers_below
     1.upto(self).inject(0) {|total, number| total += 1 if number.is_strong_achilles_number? ; total} 
   end
+  
+  def power_of_2?
+   self != 0 && self & (self - 1) == 0
+  end
 
 end
 

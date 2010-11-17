@@ -91,4 +91,12 @@ class TestArithmetic < Test::Unit::TestCase
     assert_equal 656, (10**8).numbers_of_strong_achilles_numbers_below
   end
   
+  def test_power_of_2
+    assert 2.power_of_2?
+    assert !0.power_of_2?
+    assert !3.power_of_2?
+    assert 1024.power_of_2?
+    assert 64.power_of_2?
+  end
+  
 end
