@@ -1,0 +1,28 @@
+Library of mathematics functions and some utilities.
+Provide mathematics functions and utilities for Theory of Number. Analysis. Geometry ...
+Embedded week to week with new functions.
+
+=== First release :
+* Arithmetic. Theory of numbers functions. Extend Integer class
+- gcdn of n integers 
+- prime_powers 
+- is_powerful? 
+- is_perfect_power?
+- is_achilles_number? 
+- euler_totient 
+- is_strong_achilles_number? 
+- numbers_of_strong_achilles_numbers_below integer 
+
+* Math. Symbol for Sum, Product , Root (extend module Kernel) using ruby Unicode √, ∑ ....
+
+=== TO DO
+
+RDoc for gem API
+
+=== Install
+
+gem install rmathemata
+
+=== Dependencies
+
+<b>mathn</b>
